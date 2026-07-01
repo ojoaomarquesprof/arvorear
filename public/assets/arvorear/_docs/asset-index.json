@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-06-30T21:17:37.885000",
+  "project_extract_root": "Extraia este ZIP na raiz do projeto Next.js, onde está o package.json.",
+  "public_base": "/assets/arvorear",
+  "brand_paths": {
+    "logo_header_preferred": "/assets/arvorear/brand/logos/webp/logo-horizontal-coral-transparent.webp",
+    "logo_dark_background": "/assets/arvorear/brand/logos/webp/logo-horizontal-creme-transparent.webp",
+    "symbol_coral": "/assets/arvorear/brand/logos/webp/simbolo-coral-transparent.webp",
+    "symbol_creme": "/assets/arvorear/brand/logos/webp/simbolo-creme-transparent.webp",
+    "brand_banner_child_play": "/assets/arvorear/brand/banners/webp/11-banner-crianca-brincando.webp",
+    "brand_banner_child_nature": "/assets/arvorear/brand/banners/webp/12-banner-crianca-natureza.webp",
+    "color_palette_reference": "/assets/arvorear/brand/previews/webp/06-paleta-de-cores.webp"
+  },
+  "space_paths": {
+    "hero_recepcao": "/assets/arvorear/espaco/hero/hero-recepcao-real-16x9.webp",
+    "hero_fachada": "/assets/arvorear/espaco/hero/hero-fachada-real-wide.webp",
+    "card_recepcao_logo": "/assets/arvorear/espaco/hero/card-recepcao-logo-4x5.webp",
+    "fachada_principal": "/assets/arvorear/espaco/fachada/fachada-principal.webp",
+    "recepcao_logo_arvore": "/assets/arvorear/espaco/recepcao/recepcao-logo-arvore.webp"
+  },
+  "colors": {
+    "verdeRaiz": "#636853",
+    "verdeSereno": "#b1b2a1",
+    "terraViva": "#c3896d",
+    "pessegoDoce": "#ddbea9",
+    "areiaDoce": "#fef8ec",
+    "cremeEssencia": "#f1e4d4"
+  },
+  "latest_uploaded_zip_check": {
+    "file": "drive-download-20260630T210040Z-3-001(1).zip",
+    "total_files": 24,
+    "logo_like_files_found": [],
+    "note": "O ZIP mais recente parece conter fotos do espaço, não arquivos vetoriais/isolados de logo. As logos organizadas neste pacote foram extraídas do PDF de identidade."
+  }
+}

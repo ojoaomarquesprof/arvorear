@@ -1,0 +1,206 @@
+[
+  {
+    "file": "/assets/arvorear/espaco/hero/hero-recepcao-real-16x9.webp",
+    "category": "hero",
+    "alt": "Vista ampla da recepção da Clínica Arvorear com árvore cenográfica, balcão e logo na parede verde.",
+    "usage": "Melhor imagem para o hero ou para a abertura da seção O Espaço. Use overlay verde escuro/creme para texto."
+  },
+  {
+    "file": "/assets/arvorear/espaco/hero/hero-fachada-real-wide.webp",
+    "category": "hero",
+    "alt": "Fachada externa da Clínica Arvorear em Londrina.",
+    "usage": "Boa para seção de localização/contato ou bloco final."
+  },
+  {
+    "file": "/assets/arvorear/espaco/recepcao/recepcao-logo-balcao-close.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/recepcao-logo-balcao-close.webp",
+    "category": "recepcao",
+    "alt": "Close da recepção da Clínica Arvorear com balcão branco, parede verde e logo da marca.",
+    "usage": "Use em bloco de detalhes ou card lateral da seção Espaço.",
+    "source": "01-0f0026e8-c561-4a5d-b7e5-3c19aaefd8bf.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-espera-nuvens-cinza.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-espera-nuvens-cinza.webp",
+    "category": "ambientes",
+    "alt": "Sala de espera com poltronas, parede cinza texturizada e detalhe de nuvens no teto.",
+    "usage": "Bom para galeria, transmite acolhimento sem ficar infantil demais.",
+    "source": "02-344d86d1-3804-4666-afc2-1b9ce555ba10.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/detalhes/teto-arvore-iluminada.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/teto-arvore-iluminada.webp",
+    "category": "detalhes",
+    "alt": "Detalhe do teto com copa de árvore iluminada na Clínica Arvorear.",
+    "usage": "Use como imagem de detalhe/parallax ou recorte visual entre seções.",
+    "source": "03-dcdec100-4751-41dd-8635-e71257566d24.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/corredor-portas-coloridas-vertical.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/corredor-portas-coloridas-vertical.webp",
+    "category": "ambientes",
+    "alt": "Corredor infantil da Clínica Arvorear com portas coloridas e elementos lúdicos nas paredes.",
+    "usage": "Bom para galeria vertical e seção de ambientes infantis.",
+    "source": "04-e22ed653-eaab-42f5-95a4-137662fd19fc.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/detalhes/mural-infantil-nuvens-arvore.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/mural-infantil-nuvens-arvore.webp",
+    "category": "detalhes",
+    "alt": "Mural infantil com árvores, nuvens e cores suaves no espaço da Clínica Arvorear.",
+    "usage": "Use como detalhe visual para falar sobre acolhimento.",
+    "source": "05-ee43539c-880d-4ef7-98b8-69f0cfa3bcea.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/recepcao/recepcao-logo-arvore.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/recepcao-logo-arvore.webp",
+    "category": "recepcao",
+    "alt": "Recepção da Clínica Arvorear com balcão ripado, parede verde, logo e árvore cenográfica.",
+    "usage": "Imagem forte para apresentar a identidade física da clínica.",
+    "source": "06-img-6115.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/recepcao/recepcao-ampla-balcao-escada.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/recepcao-ampla-balcao-escada.webp",
+    "category": "recepcao",
+    "alt": "Vista ampla da recepção da Clínica Arvorear com árvore cenográfica, balcão e sala de espera.",
+    "usage": "Imagem principal para a seção O Espaço.",
+    "source": "07-img-6457.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-terapia-motora.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-terapia-motora.webp",
+    "category": "ambientes",
+    "alt": "Sala de terapia com tatame verde, equipamentos e parede de escalada infantil.",
+    "usage": "Use para representar atendimento, desenvolvimento motor e ambiente terapêutico.",
+    "source": "08-img-6458.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-acolhimento-sofa.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-acolhimento-sofa.webp",
+    "category": "ambientes",
+    "alt": "Sala de atendimento com sofá, decoração suave e iluminação natural.",
+    "usage": "Boa para atendimento familiar e acolhimento.",
+    "source": "09-img-6459.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-acolhimento-poltrona.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-acolhimento-poltrona.webp",
+    "category": "ambientes",
+    "alt": "Sala acolhedora com poltrona, mesa lateral e quadros decorativos.",
+    "usage": "Boa para orientação familiar, escuta e atendimento individual.",
+    "source": "10-img-6460.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-musical-teclado.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-musical-teclado.webp",
+    "category": "ambientes",
+    "alt": "Sala com teclado e elementos terapêuticos para atividades lúdicas e musicais.",
+    "usage": "Use apenas se fizer sentido na narrativa de atividades multidisciplinares.",
+    "source": "11-img-6461.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-infantil-arcoiris.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-infantil-arcoiris.webp",
+    "category": "ambientes",
+    "alt": "Sala infantil com tapete de arco-íris, mesa, cadeiras e parede delicada.",
+    "usage": "Ótima para reforçar cuidado infantil e espaço preparado para crianças.",
+    "source": "12-img-6462.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-atendimento-mesa-planta.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-atendimento-mesa-planta.webp",
+    "category": "ambientes",
+    "alt": "Sala de atendimento com mesa infantil, prateleiras e plantas suspensas.",
+    "usage": "Boa para galeria do espaço.",
+    "source": "13-img-6463.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/sala-ludica-casinha.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/sala-ludica-casinha.webp",
+    "category": "ambientes",
+    "alt": "Sala lúdica com desenho de casinha, mesa infantil e tapete floral.",
+    "usage": "Boa para mostrar ambientes infantis com estética acolhedora.",
+    "source": "14-img-6464.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/corredor-portas-coloridas-panoramico-01.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/corredor-portas-coloridas-panoramico-01.webp",
+    "category": "ambientes",
+    "alt": "Vista panorâmica do corredor com portas coloridas e ilustrações de árvores.",
+    "usage": "Boa para faixa horizontal ou galeria panorâmica.",
+    "source": "15-whatsapp-image-2025-12-04-at-09-51-24.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/ambientes/corredor-portas-coloridas-panoramico-02.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/corredor-portas-coloridas-panoramico-02.webp",
+    "category": "ambientes",
+    "alt": "Corredor panorâmico com portas coloridas e ilustrações lúdicas nas paredes.",
+    "usage": "Use como variação horizontal da galeria.",
+    "source": "16-whatsapp-image-2025-12-04-at-09-51-25.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/conceito-3d/conceito-recepcao-arvore-porta.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/conceito-recepcao-arvore-porta.webp",
+    "category": "conceito-3d",
+    "alt": "Referência visual da recepção com árvore cenográfica, porta em arco e balcão ripado.",
+    "usage": "Use como referência ou apoio visual caso queira misturar render com fotos reais.",
+    "source": "17-arvore-porta.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/fachada/entrada-escada-logo.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/entrada-escada-logo.webp",
+    "category": "fachada",
+    "alt": "Entrada interna com escada e logo da Arvorear na parede.",
+    "usage": "Boa para mostrar chegada/acesso.",
+    "source": "18-corredor.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/fachada/fachada-principal.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/fachada-principal.webp",
+    "category": "fachada",
+    "alt": "Fachada externa da Clínica Arvorear com muro ilustrado e identidade visual.",
+    "usage": "Imagem forte para contato, localização e confiança.",
+    "source": "19-fachada.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/fachada/frente-patio-brinquedos.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/frente-patio-brinquedos.webp",
+    "category": "fachada",
+    "alt": "Área externa da Clínica Arvorear com fachada, pátio e brinquedos.",
+    "usage": "Boa para seção Espaço, localização ou fechamento.",
+    "source": "20-frente.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/conceito-3d/conceito-sala-primavera-01.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/conceito-sala-primavera-01.webp",
+    "category": "conceito-3d",
+    "alt": "Referência visual de sala infantil com elementos florais, nuvens e iluminação natural.",
+    "usage": "Use apenas como imagem conceitual se não quiser depender só das fotos reais.",
+    "source": "21-primavera-2.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/conceito-3d/conceito-sala-primavera-02.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/conceito-sala-primavera-02.webp",
+    "category": "conceito-3d",
+    "alt": "Referência visual de ambiente infantil com mesa, cabana e parede floral.",
+    "usage": "Use como apoio visual ou inspiração.",
+    "source": "22-primavera.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/conceito-3d/conceito-recepcao-panoramica-01.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/conceito-recepcao-panoramica-01.webp",
+    "category": "conceito-3d",
+    "alt": "Referência panorâmica de recepção com cortina, madeira, verde e plantas.",
+    "usage": "Boa como imagem de apoio ampla, mas sinalize internamente como conceito.",
+    "source": "23-recepcao-2.jpg"
+  },
+  {
+    "file": "/assets/arvorear/espaco/conceito-3d/conceito-recepcao-panoramica-02.webp",
+    "thumb": "/assets/arvorear/espaco/thumbs/conceito-recepcao-panoramica-02.webp",
+    "category": "conceito-3d",
+    "alt": "Referência panorâmica da recepção com balcão, árvore cenográfica e parede verde.",
+    "usage": "Boa como imagem horizontal caso precise de pano de fundo.",
+    "source": "24-recepcao.jpg"
+  }
+]

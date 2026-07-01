@@ -1,0 +1,25 @@
+export const arvorearAssets = {
+  brand: {
+    logoHeader: "/assets/arvorear/brand/logos/webp/logo-horizontal-coral-transparent.webp",
+    logoDark: "/assets/arvorear/brand/logos/webp/logo-horizontal-creme-transparent.webp",
+    symbolCoral: "/assets/arvorear/brand/logos/webp/simbolo-coral-transparent.webp",
+    symbolCreme: "/assets/arvorear/brand/logos/webp/simbolo-creme-transparent.webp",
+    bannerChildPlay: "/assets/arvorear/brand/banners/webp/11-banner-crianca-brincando.webp",
+    bannerChildNature: "/assets/arvorear/brand/banners/webp/12-banner-crianca-natureza.webp",
+    palette: "/assets/arvorear/brand/previews/webp/06-paleta-de-cores.webp",
+  },
+  espaco: {
+    heroRecepcao: "/assets/arvorear/espaco/hero/hero-recepcao-real-16x9.webp",
+    heroFachada: "/assets/arvorear/espaco/hero/hero-fachada-real-wide.webp",
+    cardRecepcaoLogo: "/assets/arvorear/espaco/hero/card-recepcao-logo-4x5.webp",
+    recepcaoLogoArvore: "/assets/arvorear/espaco/recepcao/recepcao-logo-arvore.webp",
+    recepcaoAmpla: "/assets/arvorear/espaco/recepcao/recepcao-ampla-balcao-escada.webp",
+    salaEspera: "/assets/arvorear/espaco/ambientes/sala-espera-nuvens-cinza.webp",
+    corredorPortas: "/assets/arvorear/espaco/ambientes/corredor-portas-coloridas-vertical.webp",
+    salaTerapiaMotora: "/assets/arvorear/espaco/ambientes/sala-terapia-motora.webp",
+    fachadaPrincipal: "/assets/arvorear/espaco/fachada/fachada-principal.webp",
+    entradaEscadaLogo: "/assets/arvorear/espaco/fachada/entrada-escada-logo.webp",
+    tetoArvore: "/assets/arvorear/espaco/detalhes/teto-arvore-iluminada.webp",
+    muralInfantil: "/assets/arvorear/espaco/detalhes/mural-infantil-nuvens-arvore.webp",
+  },
+} as const;

@@ -1,0 +1,44 @@
+{
+  "brand": "Arvorear",
+  "tagline": "Afeto • Ciência • Desenvolvimento",
+  "source_pdf": "Arvorear - Apresentação Logo (Ajustado 02) (1).pdf",
+  "concept": {
+    "symbol": "Coração em forma de árvore: acolhimento com afeto; galhos e folhas: crescimento e desenvolvimento; flor: florescimento individual; semelhança dos galhos com sulcos do cérebro: conexão com ciência.",
+    "tone": "sofisticado, acolhedor, educativo, positivo, acessível, premium e humano"
+  },
+  "colors": [
+    {
+      "name": "Verde Raiz",
+      "hex": "#636853"
+    },
+    {
+      "name": "Verde Sereno",
+      "hex": "#b1b2a1"
+    },
+    {
+      "name": "Terra Viva",
+      "hex": "#c3896d"
+    },
+    {
+      "name": "Pêssego Doce",
+      "hex": "#ddbea9"
+    },
+    {
+      "name": "Areia Doce",
+      "hex": "#fef8ec"
+    },
+    {
+      "name": "Creme Essência",
+      "hex": "#f1e4d4"
+    }
+  ],
+  "recommended_stack": [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "React Hook Form",
+    "Zod",
+    "Lucide React"
+  ]
+}

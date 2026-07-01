@@ -1,0 +1,43 @@
+IMPORTANTE — ASSETS JÁ ORGANIZADOS PARA O SITE
+
+Os assets estão organizados em:
+public/assets/arvorear/
+
+Use preferencialmente os arquivos .webp.
+
+Brand/logos:
+- /assets/arvorear/brand/logos/webp/logo-horizontal-coral-transparent.webp
+- /assets/arvorear/brand/logos/webp/logo-horizontal-creme-transparent.webp
+- /assets/arvorear/brand/logos/webp/simbolo-coral-transparent.webp
+- /assets/arvorear/brand/logos/webp/simbolo-creme-transparent.webp
+
+Banners e mockups de marca:
+- /assets/arvorear/brand/banners/webp/11-banner-crianca-brincando.webp
+- /assets/arvorear/brand/banners/webp/12-banner-crianca-natureza.webp
+- /assets/arvorear/brand/mockups/webp/
+
+Fotos reais do espaço:
+- /assets/arvorear/espaco/hero/hero-recepcao-real-16x9.webp
+- /assets/arvorear/espaco/hero/card-recepcao-logo-4x5.webp
+- /assets/arvorear/espaco/hero/hero-fachada-real-wide.webp
+- /assets/arvorear/espaco/recepcao/
+- /assets/arvorear/espaco/ambientes/
+- /assets/arvorear/espaco/fachada/
+- /assets/arvorear/espaco/detalhes/
+
+Arquivos auxiliares:
+- /assets/arvorear/_docs/asset-index.json
+- /assets/arvorear/_docs/arvorear-assets.ts
+- /assets/arvorear/espaco/_docs/asset-map.md
+
+Paleta oficial:
+- Verde Raiz: #636853
+- Verde Sereno: #b1b2a1
+- Terra Viva: #c3896d
+- Pêssego Doce: #ddbea9
+- Areia Doce: #fef8ec
+- Creme Essência: #f1e4d4
+
+Antes de referenciar imagens, inspecione os arquivos existentes em public/assets/arvorear e use somente caminhos reais.
+Não use imagens externas aleatórias.
+Não trate os renders/conceitos do PDF como foto real do espaço. Fotos reais estão na pasta espaco/.
