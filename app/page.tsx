@@ -19,7 +19,7 @@ const structuredData = {
   name: siteConfig.name,
   url: siteUrl,
   description:
-    "Clínica multidisciplinar de desenvolvimento infantil com intervenção individualizada e suporte familiar.",
+    "Clínica multidisciplinar em Londrina com avaliação responsável, intervenção individualizada e orientação familiar.",
   image: `${siteUrl}/assets/arvorear/brand/banners/webp/12-banner-crianca-natureza.webp`,
   logo: `${siteUrl}/assets/arvorear/brand/logos/png/simbolo-coral-transparent.png`,
   address: {
@@ -31,7 +31,6 @@ const structuredData = {
   },
   telephone: siteConfig.phoneDisplay,
   email: siteConfig.email,
-  founder: { "@type": "Person", name: siteConfig.founder },
   areaServed: "Londrina e região",
   ...(instagramUrl ? { sameAs: [instagramUrl] } : {}),
 };

@@ -1,5 +1,4 @@
-import { ArrowDownRight } from "lucide-react";
-import { BrandMotif } from "@/components/ui/brand-motif";
+import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -8,11 +7,20 @@ import { approachSteps } from "@/lib/site-data";
 export function Approach() {
   return (
     <section id="abordagem" className="relative overflow-hidden py-24 sm:py-32">
-      <BrandMotif variant="rings" className="absolute -right-24 top-28 w-[30rem] text-root/[0.055]" />
       <Container>
         <Reveal className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
-          <SectionHeading eyebrow="Nossa abordagem" title={<>Um plano clínico que acompanha a criança — <span className="italic text-root">não o contrário.</span></>} description="O percurso parte da escuta, ganha direção com a avaliação e permanece aberto a revisão. Objetivos mudam quando a criança e sua realidade mudam." />
-          <div className="flex size-24 shrink-0 items-center justify-center rounded-full border border-root/15 text-root lg:size-32"><ArrowDownRight size={38} strokeWidth={1} /></div>
+          <SectionHeading eyebrow="Nossa abordagem" title={<>Um percurso que pode mudar <span className="italic text-root">quando a criança muda.</span></>} description="A escuta abre o caminho, a avaliação organiza prioridades e as revisões mantêm o plano conectado à vida real." />
+          <div className="relative hidden h-[270px] w-[310px] shrink-0 items-center justify-center lg:flex" aria-hidden="true">
+            <div className="pointer-events-none absolute size-[250px] rounded-full border border-root/[0.06] bg-serene/[0.08] blur-[1px]" />
+            <Image
+              src="/assets/arvorear/brand/logos/webp/simbolo-coral-transparent.webp"
+              alt=""
+              aria-hidden="true"
+              width={343}
+              height={304}
+              className="pointer-events-none relative w-[280px] -rotate-3 object-contain opacity-[0.13] mix-blend-multiply"
+            />
+          </div>
         </Reveal>
 
         <div className="relative mt-16 lg:mt-20">

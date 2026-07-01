@@ -1,8 +1,8 @@
-import { ArrowUpRight, Mail, MapPin, MessageCircle } from "lucide-react";
+import { ArrowUpRight, Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Logo } from "@/components/logo";
 import { navigation } from "@/lib/site-data";
-import { mapsUrl, siteConfig, whatsappUrl } from "@/lib/site-config";
+import { instagramUrl, mapsUrl, siteConfig, whatsappUrl } from "@/lib/site-config";
 
 export function Footer() {
   return (
@@ -25,6 +25,7 @@ export function Footer() {
             <div className="mt-5 space-y-4 text-sm text-sand/75">
               <a href={whatsappUrl} target="_blank" rel="noreferrer" className="flex items-center gap-3 transition hover:text-sand"><MessageCircle size={17} /> {siteConfig.phoneDisplay}</a>
               <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 transition hover:text-sand"><Mail size={17} /> {siteConfig.email}</a>
+              <a href={instagramUrl} target="_blank" rel="noreferrer" className="flex items-center gap-3 transition hover:text-sand"><Instagram size={17} /> @clinicaarvorear <ArrowUpRight size={14} /></a>
               <a href={mapsUrl} target="_blank" rel="noreferrer" className="flex items-start gap-3 transition hover:text-sand"><MapPin size={17} className="mt-0.5 shrink-0" /> {siteConfig.address} <ArrowUpRight size={14} className="shrink-0" /></a>
             </div>
           </div>

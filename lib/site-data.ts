@@ -31,22 +31,22 @@ export const brandConcepts = [
   {
     icon: Heart,
     title: "Coração",
-    text: "Presença e vínculo para que família e criança sejam ouvidas sem julgamento.",
+    text: "Presença e vínculo para ouvir criança e família sem julgamento.",
   },
   {
     icon: TreePine,
     title: "Árvore",
-    text: "Desenvolvimento como processo contínuo, influenciado por relações e contexto.",
+    text: "Um processo contínuo, atravessado por relações, ambiente e tempo.",
   },
   {
     icon: Flower2,
     title: "Flor",
-    text: "Respeito às diferentes formas de comunicar, aprender e participar do cotidiano.",
+    text: "Respeito às diferentes formas de comunicar, aprender e participar.",
   },
   {
     icon: Microscope,
     title: "Ciência",
-    text: "Evidências para orientar avaliação, objetivos terapêuticos e revisão do percurso.",
+    text: "Evidências para orientar avaliação, objetivos e revisão do percurso.",
   },
 ];
 
@@ -65,12 +65,12 @@ export const careAreas = [
   {
     icon: Sprout,
     title: "Desenvolvimento infantil",
-    text: "Leitura integrada de habilidades, necessidades, relações e participação no cotidiano.",
+    text: "Leitura integrada de habilidades, necessidades, relações e participação na rotina.",
   },
   {
     icon: Sparkles,
     title: "Intervenção precoce",
-    text: "Ações oportunas nos primeiros anos, definidas a partir de avaliação e prioridades reais.",
+    text: "Ações oportunas nos primeiros anos, definidas por avaliação e prioridades reais.",
   },
   {
     icon: HeartHandshake,
@@ -95,11 +95,11 @@ export const careAreas = [
 ];
 
 export const approachSteps = [
-  { number: "01", title: "Escuta inicial", text: "A família apresenta a história, o que observa e o que mais precisa compreender neste momento." },
-  { number: "02", title: "Avaliação cuidadosa", text: "A equipe reúne observação clínica e informações do cotidiano sem reduzir a criança a um rótulo." },
-  { number: "03", title: "Plano individualizado", text: "Objetivos são definidos por relevância clínica e impacto possível na participação da criança." },
-  { number: "04", title: "Intervenção integrada", text: "As áreas compartilham decisões e alinham estratégias com família e escola quando necessário." },
-  { number: "05", title: "Revisão do percurso", text: "Evolução, dificuldades e novas prioridades são discutidas para ajustar o plano com transparência." },
+  { number: "01", title: "Escuta inicial", text: "A família conta a história, o que observa e o que precisa compreender agora." },
+  { number: "02", title: "Avaliação cuidadosa", text: "A equipe articula observação clínica e informações do cotidiano, sem reduzir a criança a um rótulo." },
+  { number: "03", title: "Plano individualizado", text: "Os objetivos são escolhidos pela relevância clínica e pelo impacto possível na vida diária." },
+  { number: "04", title: "Intervenção integrada", text: "As áreas alinham decisões com a família e, quando necessário, com a escola." },
+  { number: "05", title: "Revisão do percurso", text: "Evolução, dificuldades e novas prioridades orientam os ajustes do plano." },
 ];
 
 export const faqs = [
@@ -128,37 +128,37 @@ export const faqs = [
 export const spaceGallery = [
   {
     src: "/assets/arvorear/espaco/hero/hero-recepcao-real-16x9.webp",
-    alt: "Vista ampla da recepção real da Clínica Arvorear com árvore cenográfica, balcão e logo na parede verde.",
+    alt: "Vista ampla da recepção da Clínica Arvorear com árvore cenográfica, balcão e logo na parede verde.",
     label: "Recepção",
     className: "col-span-2 row-span-2 md:col-span-7 md:row-span-2",
   },
   {
     src: "/assets/arvorear/espaco/ambientes/corredor-portas-coloridas-vertical.webp",
-    alt: "Corredor real da Clínica Arvorear com portas coloridas e elementos lúdicos nas paredes.",
+    alt: "Corredor da Clínica Arvorear com portas coloridas e elementos lúdicos nas paredes.",
     label: "Caminhos com cor",
     className: "col-span-1 row-span-2 md:col-span-5 md:row-span-3",
   },
   {
     src: "/assets/arvorear/espaco/ambientes/sala-acolhimento-sofa.webp",
-    alt: "Sala real de acolhimento com sofá, decoração suave e iluminação natural.",
+    alt: "Sala de acolhimento com sofá, decoração suave e iluminação natural.",
     label: "Acolhimento familiar",
     className: "col-span-1 row-span-1 md:col-span-3 md:row-span-2",
   },
   {
     src: "/assets/arvorear/espaco/ambientes/sala-infantil-arcoiris.webp",
-    alt: "Sala infantil real com tapete de arco-íris, mesa e parede delicada.",
+    alt: "Sala infantil com tapete de arco-íris, mesa e parede delicada.",
     label: "Infância respeitada",
     className: "col-span-2 row-span-2 md:col-span-4 md:row-span-2",
   },
   {
     src: "/assets/arvorear/espaco/detalhes/teto-arvore-iluminada.webp",
-    alt: "Detalhe real do teto com copa de árvore iluminada na Clínica Arvorear.",
+    alt: "Detalhe do teto com copa de árvore iluminada na Clínica Arvorear.",
     label: "Detalhes que acolhem",
     className: "col-span-1 row-span-2 md:col-span-5 md:row-span-2",
   },
   {
     src: "/assets/arvorear/espaco/ambientes/sala-terapia-motora.webp",
-    alt: "Sala real de terapia com tatame verde, equipamentos e parede de escalada infantil.",
+    alt: "Sala de terapia com tatame verde, equipamentos e parede de escalada infantil.",
     label: "Espaço para desenvolver",
     className: "col-span-1 row-span-2 md:col-span-7 md:row-span-2",
   },

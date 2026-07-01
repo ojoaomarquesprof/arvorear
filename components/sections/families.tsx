@@ -20,11 +20,11 @@ export function Families() {
             </ParallaxMedia>
           </Reveal>
           <Reveal delay={0.1}>
-            <SectionHeading eyebrow="Famílias no centro" title={<>A família não fica do lado de fora <span className="italic text-root">do processo.</span></>} description="Quem convive com a criança traz informações que nenhuma sessão, sozinha, consegue oferecer. Por isso, escuta, orientação e decisões compartilhadas fazem parte do acompanhamento." />
+            <SectionHeading eyebrow="Famílias no centro" title={<>A família ajuda a dar sentido <span className="italic text-root">ao que a equipe observa.</span></>} description="Quem acompanha a criança todos os dias percebe situações que uma sessão isolada não alcança. Essa leitura faz parte do cuidado." />
             <div className="mt-8 space-y-3 border-l border-root/25 pl-6 text-sm leading-7 text-ink/70">
-              <p>Orientações conectadas às situações reais da rotina.</p>
-              <p>Espaço para dúvidas, limites e prioridades da família.</p>
-              <p>Alinhamento com escola e rede de apoio quando fizer sentido.</p>
+              <p>Estratégias possíveis dentro da rotina da casa.</p>
+              <p>Espaço para dúvidas, limites e prioridades reais.</p>
+              <p>Diálogo com escola e rede de apoio quando necessário.</p>
             </div>
             <a href={whatsappUrl} target="_blank" rel="noreferrer" className="button-primary mt-9"><MessageCircle size={18} /> Conversar com a equipe <ArrowUpRight size={16} /></a>
           </Reveal>

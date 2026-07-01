@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Clínica Arvorear",
     short_name: "Arvorear",
     description:
-      "Cuidado multidisciplinar para o desenvolvimento infantil em Londrina.",
+      "Clínica multidisciplinar em Londrina com cuidado individualizado e orientação familiar.",
     start_url: "/",
     display: "standalone",
     background_color: "#fef8ec",

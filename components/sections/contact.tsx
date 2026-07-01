@@ -13,8 +13,8 @@ export function Contact() {
       <Container>
         <Reveal className="mb-14 max-w-3xl lg:mb-20">
           <p className="eyebrow">Primeiro contato</p>
-          <h2 className="display-title mt-5 text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">Conte o que preocupa você <span className="italic text-root">neste momento.</span></h2>
-          <p className="body-copy mt-6 max-w-2xl">O primeiro contato serve para ouvir a demanda, explicar como a clínica trabalha e orientar o próximo passo possível — sem compromisso com continuidade. Não realizamos diagnóstico pelo site.</p>
+          <h2 className="display-title mt-5 text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">Conte o que você tem <span className="italic text-root">observado.</span></h2>
+          <p className="body-copy mt-6 max-w-2xl">A equipe ouve a demanda, explica como a clínica trabalha e orienta um próximo passo possível. Essa conversa não cria compromisso com a continuidade.</p>
           <p className="mt-3 text-sm font-semibold text-root">O primeiro contato não substitui avaliação profissional.</p>
         </Reveal>
 
@@ -22,7 +22,7 @@ export function Contact() {
           <Reveal>
             <div className="flex h-full flex-col overflow-hidden rounded-[2.5rem_2.5rem_2.5rem_0.8rem] bg-root text-sand shadow-[0_24px_65px_rgba(52,56,45,0.14)]">
               <div className="relative min-h-[270px] overflow-hidden lg:min-h-[340px]">
-                <Image src="/assets/arvorear/espaco/hero/hero-fachada-real-wide.webp" alt="Fachada real da Clínica Arvorear em Londrina." fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover" />
+                <Image src="/assets/arvorear/espaco/hero/hero-fachada-real-wide.webp" alt="Fachada da Clínica Arvorear em Londrina." fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-root/60 to-transparent" />
               </div>
               <div className="flex flex-1 flex-col p-7 sm:p-9">

@@ -9,7 +9,7 @@ export function Faq() {
     <section className="bg-root py-24 text-sand sm:py-32">
       <Container>
         <Reveal className="grid gap-14 lg:grid-cols-[0.75fr_1.25fr] lg:gap-20">
-          <SectionHeading eyebrow="Perguntas frequentes" title={<>Antes do primeiro encontro, é natural ter <span className="italic text-peach">perguntas.</span></>} description="Respostas diretas sobre o início do atendimento e a participação da família." className="[&_.display-title]:text-sand [&_.body-copy]:text-sand/85 [&_.eyebrow]:!text-essence/90 [&_.eyebrow]:before:!bg-peach/70" />
+          <SectionHeading eyebrow="Perguntas frequentes" title={<>O que as famílias costumam perguntar <span className="italic text-peach">antes do primeiro contato.</span></>} description="Respostas diretas, sem linguagem complicada." className="[&_.display-title]:text-sand [&_.body-copy]:text-sand/85 [&_.eyebrow]:!text-essence/90 [&_.eyebrow]:before:!bg-peach/70" />
           <div className="border-t border-sand/15">
             {faqs.map((faq) => (
               <details key={faq.question} className="group border-b border-sand/15">

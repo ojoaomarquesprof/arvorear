@@ -4,7 +4,7 @@ import "./globals.css";
 
 const title = "Clínica Arvorear | Desenvolvimento Infantil em Londrina";
 const description =
-  "Cuidado multidisciplinar para o desenvolvimento infantil em Londrina, com avaliação responsável, plano individualizado e parceria com a família.";
+  "Clínica multidisciplinar em Londrina com avaliação responsável, intervenção individualizada e orientação familiar.";
 const socialImage = "/assets/arvorear/brand/banners/webp/12-banner-crianca-natureza.webp";
 
 export const metadata: Metadata = {
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     "clínica infantil Londrina",
     "equipe multidisciplinar infantil",
     "terapia infantil",
+    "intervenção precoce Londrina",
     "orientação familiar",
   ],
   authors: [{ name: "Clínica Arvorear" }],
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
         url: socialImage,
         width: 1920,
         height: 1080,
-        alt: "Clínica Arvorear — Afeto, Ciência e Desenvolvimento",
+        alt: "Clínica Arvorear em Londrina — Afeto, Ciência e Desenvolvimento",
       },
     ],
   },

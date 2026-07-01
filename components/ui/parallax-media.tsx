@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 export function ParallaxMedia({
   children,
   className,
-  distance = 14,
+  distance = 10,
 }: Readonly<{ children: React.ReactNode; className?: string; distance?: number }>) {
   const ref = useRef<HTMLDivElement>(null);
   const reduceMotion = useReducedMotion();
@@ -16,7 +16,7 @@ export function ParallaxMedia({
 
   return (
     <div ref={ref} className={cn("relative overflow-hidden", className)}>
-      <motion.div className="absolute -inset-y-5 inset-x-0" style={reduceMotion ? undefined : { y }}>
+      <motion.div className="absolute -inset-y-3 inset-x-0" style={reduceMotion ? undefined : { y }}>
         {children}
       </motion.div>
     </div>
