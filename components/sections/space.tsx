@@ -23,7 +23,7 @@ export function Space() {
 
         <SpaceGallery images={spaceGallery} />
 
-        <div className="mt-7 flex justify-end border-t border-root/15 pt-5 text-xs leading-6 text-ink/50">
+        <div className="mt-7 flex justify-end border-t border-root/15 pt-5 text-sm leading-6 text-ink/55">
           <p>Rua Professor Júlio Estrela Moreira, 1040 · Londrina/PR</p>
         </div>
       </Container>

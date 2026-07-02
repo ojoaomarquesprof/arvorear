@@ -95,7 +95,7 @@ export default function PrivacyPolicyPage() {
               </section>
             </div>
 
-            <p className="mt-12 border-t border-root/10 pt-6 text-xs text-ink/55">Última atualização: 1º de julho de 2026.</p>
+            <p className="mt-12 border-t border-root/10 pt-6 text-sm leading-6 text-ink/60">Última atualização: 1º de julho de 2026.</p>
           </div>
         </Container>
       </main>

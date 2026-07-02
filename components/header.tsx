@@ -62,7 +62,7 @@ export function Header() {
 
         <nav className="hidden items-center gap-5 xl:flex" aria-label="Navegação principal">
           {navigation.map((item) => (
-            <a key={item.href} href={item.href} className={cn("group relative rounded-md py-2 text-[0.8rem] font-semibold transition after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:origin-left after:scale-x-0 after:bg-current after:transition-transform hover:after:scale-x-100", scrolled ? "text-ink/70 hover:text-root" : "text-sand/75 hover:text-sand")}>
+            <a key={item.href} href={item.href} className={cn("group relative rounded-md py-2 text-[0.9rem] font-semibold transition after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:origin-left after:scale-x-0 after:bg-current after:transition-transform hover:after:scale-x-100", scrolled ? "text-ink/70 hover:text-root" : "text-sand/75 hover:text-sand")}>
               {item.label}
             </a>
           ))}
@@ -98,7 +98,7 @@ export function Header() {
             transition={{ duration: reduceMotion ? 0 : 0.25 }}
           >
             <Container className="flex min-h-full flex-col py-7 sm:py-9">
-              <p className="mb-4 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-root/50">Afeto • Ciência • Desenvolvimento</p>
+              <p className="mb-4 text-[0.8125rem] font-bold uppercase tracking-[0.15em] text-root/55">Afeto • Ciência • Desenvolvimento</p>
               <nav className="flex flex-col" aria-label="Navegação móvel">
                 {navigation.map((item, index) => (
                   <a ref={index === 0 ? firstMenuLinkRef : undefined} key={item.href} href={item.href} onClick={() => setOpen(false)} className="group border-b border-root/10 py-3.5 font-display text-[1.85rem] text-root transition hover:pl-2 hover:text-ink sm:py-4 sm:text-3xl motion-reduce:transform-none">

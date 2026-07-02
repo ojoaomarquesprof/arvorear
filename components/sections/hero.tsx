@@ -33,8 +33,8 @@ export function Hero() {
               </a>
             </div>
             <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 border-t border-sand/15 pt-6">
-              <span className="text-[0.68rem] font-bold uppercase tracking-[0.16em] text-sand/80">Cuidado individualizado</span>
-              <span className="flex items-center gap-2 text-[0.68rem] font-bold uppercase tracking-[0.16em] text-sand/80"><UsersRound size={15} aria-hidden="true" /> Família participa do processo</span>
+              <span className="text-[0.8125rem] font-bold uppercase tracking-[0.14em] text-sand/85">Cuidado individualizado</span>
+              <span className="flex items-center gap-2 text-[0.8125rem] font-bold uppercase tracking-[0.14em] text-sand/85"><UsersRound size={16} aria-hidden="true" /> Família participa do processo</span>
             </div>
           </Reveal>
 
@@ -54,7 +54,7 @@ export function Hero() {
             </ParallaxMedia>
 
             <div className="absolute inset-x-6 bottom-7 border-t border-sand/20 pt-5 text-sand sm:inset-x-9 sm:bottom-9">
-              <p className="text-[0.62rem] font-bold uppercase tracking-[0.22em] text-essence/90">Afeto • Ciência • Desenvolvimento</p>
+              <p className="text-[0.8125rem] font-bold uppercase tracking-[0.16em] text-essence/90">Afeto • Ciência • Desenvolvimento</p>
               <p className="mt-2 max-w-xs font-display text-xl leading-snug sm:text-2xl">A criança por inteiro, dentro e fora da sala de atendimento.</p>
             </div>
           </Reveal>

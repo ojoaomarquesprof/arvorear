@@ -92,7 +92,7 @@ export function SpaceGallery({ images }: Readonly<{ images: ReadonlyArray<Galler
             <span className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/5 to-transparent" aria-hidden="true" />
             <span className="absolute right-6 top-6 grid size-11 place-items-center rounded-full border border-sand/25 bg-ink/35 text-sand opacity-0 backdrop-blur-md transition duration-300 group-hover:opacity-100 group-focus-visible:opacity-100" aria-hidden="true"><Maximize2 size={18} /></span>
             <span className="absolute inset-x-0 bottom-0 p-6 text-sand sm:p-9 lg:p-11">
-              <span className="block text-[0.65rem] font-bold uppercase tracking-[0.2em] text-peach">{featuredSpace.label}</span>
+              <span className="block text-[0.8125rem] font-bold uppercase tracking-[0.15em] text-peach">{featuredSpace.label}</span>
               <span className="mt-3 block max-w-xl font-display text-2xl leading-snug sm:text-4xl">Um lugar para chegar com calma, reconhecer o ambiente e começar no próprio ritmo.</span>
             </span>
           </button>
@@ -113,7 +113,7 @@ export function SpaceGallery({ images }: Readonly<{ images: ReadonlyArray<Galler
                   <Image src={image.src} alt={image.alt} fill sizes="(max-width: 1024px) 50vw, 24vw" className="object-cover transition duration-700 ease-out group-hover:scale-[1.035] motion-reduce:transform-none" />
                   <span className="absolute inset-0 bg-gradient-to-t from-ink/75 via-transparent to-transparent" aria-hidden="true" />
                   <span className="absolute right-3 top-3 grid size-9 place-items-center rounded-full border border-sand/25 bg-ink/35 text-sand opacity-0 backdrop-blur-md transition duration-300 group-hover:opacity-100 group-focus-visible:opacity-100" aria-hidden="true"><Maximize2 size={15} /></span>
-                  <span className="absolute bottom-0 left-0 p-4 text-[0.68rem] font-bold uppercase tracking-[0.1em] text-sand sm:p-5">{image.label}</span>
+                  <span className="absolute bottom-0 left-0 p-4 text-[0.8125rem] font-bold uppercase tracking-[0.1em] text-sand sm:p-5">{image.label}</span>
                 </button>
               </Reveal>
             );
@@ -132,7 +132,7 @@ export function SpaceGallery({ images }: Readonly<{ images: ReadonlyArray<Galler
             if (event.target === event.currentTarget) close();
           }}
         >
-          <p className="absolute left-4 top-4 text-[0.65rem] font-bold uppercase tracking-[0.18em] text-sand/60 sm:left-7 sm:top-7" aria-live="polite">
+          <p className="absolute left-4 top-4 text-[0.8125rem] font-bold uppercase tracking-[0.14em] text-sand/65 sm:left-7 sm:top-7" aria-live="polite">
             {activeIndex! + 1} de {images.length}
           </p>
           <button ref={closeButtonRef} type="button" onClick={close} className="absolute right-4 top-4 z-10 grid size-12 place-items-center rounded-full border border-sand/20 bg-sand/10 text-sand transition hover:bg-sand/20 sm:right-7 sm:top-7" aria-label="Fechar imagem ampliada">
@@ -148,7 +148,7 @@ export function SpaceGallery({ images }: Readonly<{ images: ReadonlyArray<Galler
 
           <figure className="flex h-[calc(100dvh-7rem)] w-full max-w-6xl flex-col items-center justify-center sm:h-[calc(100dvh-5rem)] sm:px-16">
             <div className="relative min-h-0 w-full flex-1">
-              <Image src={activeImage.src} alt={activeImage.alt} fill sizes="100vw" quality={90} className="object-contain" />
+              <Image src={activeImage.src} alt={activeImage.alt} fill sizes="100vw" className="object-contain" />
             </div>
             <figcaption className="mt-3 max-w-2xl text-center font-display text-xl text-sand sm:text-2xl">{activeImage.label}</figcaption>
           </figure>

@@ -17,7 +17,7 @@ export function Faq() {
                   {faq.question}
                   <span className="grid size-9 shrink-0 place-items-center rounded-full border border-sand/20 text-peach transition duration-300 group-hover:border-sand/35 group-open:rotate-45"><Plus size={17} /></span>
                 </summary>
-                <p className="max-w-2xl pb-7 pr-10 text-sm leading-7 text-sand/85">{faq.answer}</p>
+                <p className="max-w-2xl pb-7 pr-10 text-[0.95rem] leading-7 text-sand/85">{faq.answer}</p>
               </details>
             ))}
           </div>

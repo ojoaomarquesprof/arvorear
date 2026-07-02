@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { contactSchema, type ContactData } from "@/lib/contact-schema";
 import { siteConfig } from "@/lib/site-config";
 
-const fieldError = "mt-1.5 text-xs font-medium text-[#8c4938]";
+const fieldError = "mt-1.5 text-sm font-medium leading-5 text-[#8c4938]";
 
 export function ContactForm() {
   const { register, handleSubmit, formState: { errors } } = useForm<ContactData>({
@@ -32,31 +32,31 @@ export function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="name" className="mb-2 block text-sm font-semibold text-root">Seu nome</label>
+          <label htmlFor="name" className="mb-2 block text-[0.95rem] font-semibold text-root">Seu nome</label>
           <input id="name" autoComplete="name" className="field" placeholder="Como podemos chamar você?" aria-required="true" aria-invalid={!!errors.name} aria-describedby={errors.name ? "name-error" : undefined} {...register("name")} />
           {errors.name ? <p id="name-error" role="alert" className={fieldError}>{errors.name.message}</p> : null}
         </div>
         <div>
-          <label htmlFor="phone" className="mb-2 block text-sm font-semibold text-root">Telefone</label>
+          <label htmlFor="phone" className="mb-2 block text-[0.95rem] font-semibold text-root">Telefone</label>
           <input id="phone" type="tel" inputMode="tel" autoComplete="tel" className="field" placeholder="(43) 99999-9999" aria-required="true" aria-invalid={!!errors.phone} aria-describedby={errors.phone ? "phone-error" : undefined} {...register("phone")} />
           {errors.phone ? <p id="phone-error" role="alert" className={fieldError}>{errors.phone.message}</p> : null}
         </div>
       </div>
 
       <div>
-        <label htmlFor="childAge" className="mb-2 block text-sm font-semibold text-root">Idade da criança</label>
+        <label htmlFor="childAge" className="mb-2 block text-[0.95rem] font-semibold text-root">Idade da criança</label>
         <input id="childAge" inputMode="numeric" className="field" placeholder="Ex.: 4 anos" aria-required="true" aria-invalid={!!errors.childAge} aria-describedby={errors.childAge ? "age-error" : undefined} {...register("childAge")} />
         {errors.childAge ? <p id="age-error" role="alert" className={fieldError}>{errors.childAge.message}</p> : null}
       </div>
 
       <div>
-        <label htmlFor="message" className="mb-2 block text-sm font-semibold text-root">Como podemos ajudar?</label>
+        <label htmlFor="message" className="mb-2 block text-[0.95rem] font-semibold text-root">Como podemos ajudar?</label>
         <textarea id="message" rows={5} className="field resize-y" placeholder="Conte brevemente o que você tem observado..." aria-required="true" aria-invalid={!!errors.message} aria-describedby={errors.message ? "message-error" : undefined} {...register("message")} />
         {errors.message ? <p id="message-error" role="alert" className={fieldError}>{errors.message.message}</p> : null}
       </div>
 
       <div>
-        <label className="flex cursor-pointer items-start gap-3 text-sm leading-6 text-ink/70">
+        <label className="flex cursor-pointer items-start gap-3 text-[0.95rem] leading-6 text-ink/70">
           <input type="checkbox" className="mt-1 size-4 rounded border-root/30 accent-root" aria-required="true" aria-invalid={!!errors.consent} aria-describedby={errors.consent ? "consent-error" : undefined} {...register("consent")} />
           <span>
             Li a <a href="/politica-de-privacidade" target="_blank" className="font-semibold text-root underline underline-offset-2">Política de Privacidade</a> e autorizo o uso destes dados apenas para retorno de contato pelo WhatsApp.
@@ -66,7 +66,7 @@ export function ContactForm() {
       </div>
 
       <button type="submit" className="button-primary w-full sm:w-auto"><MessageCircle size={18} /> Continuar no WhatsApp <ArrowUpRight size={16} /></button>
-      <div className="space-y-1 text-xs leading-5 text-ink/60">
+      <div className="space-y-1 text-sm leading-6 text-ink/60">
         <p>O site não armazena os dados preenchidos. Ao continuar, o WhatsApp será aberto em uma nova janela para você revisar e confirmar o envio.</p>
         <p className="font-semibold text-ink/70">O primeiro contato não substitui avaliação profissional.</p>
       </div>

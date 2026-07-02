@@ -31,7 +31,7 @@ export function Approach() {
                 <span className={`absolute left-[-2.65rem] top-8 hidden size-5 rounded-full border-4 border-sand bg-root md:block lg:left-auto ${index % 2 ? "lg:-left-[3.15rem]" : "lg:-right-[3.15rem]"}`} aria-hidden="true" />
                 <div className="flex items-center justify-between"><span className="font-display text-xl italic text-root/55">{step.number}</span><span className="h-px w-16 bg-root/15" /></div>
                 <h3 className="font-display text-3xl text-root">{step.title}</h3>
-                <p className="text-sm leading-7 text-ink/70">{step.text}</p>
+                <p className="text-[0.95rem] leading-7 text-ink/70">{step.text}</p>
               </article>
             </Reveal>
           ))}

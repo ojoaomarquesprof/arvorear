@@ -15,7 +15,7 @@ export function Contact() {
           <p className="eyebrow">Primeiro contato</p>
           <h2 className="display-title mt-5 text-5xl leading-[1.02] sm:text-6xl lg:text-7xl">Conte o que você tem <span className="italic text-root">observado.</span></h2>
           <p className="body-copy mt-6 max-w-2xl">A equipe ouve a demanda, explica como a clínica trabalha e orienta um próximo passo possível. Essa conversa não cria compromisso com a continuidade.</p>
-          <p className="mt-3 text-sm font-semibold text-root">O primeiro contato não substitui avaliação profissional.</p>
+          <p className="mt-3 text-[0.95rem] font-semibold text-root">O primeiro contato não substitui avaliação profissional.</p>
         </Reveal>
 
         <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
@@ -27,7 +27,7 @@ export function Contact() {
               </div>
               <div className="flex flex-1 flex-col p-7 sm:p-9">
                 <p className="font-display text-3xl">Clínica Arvorear</p>
-                <div className="mt-7 space-y-4 text-sm text-sand/85">
+                <div className="mt-7 space-y-4 text-[0.95rem] leading-6 text-sand/85">
                   <a href={mapsUrl} target="_blank" rel="noreferrer" className="flex items-start gap-3 transition hover:text-sand"><MapPin size={18} className="mt-0.5 shrink-0" /> {siteConfig.address} <ArrowUpRight size={14} className="shrink-0" /></a>
                   <a href={whatsappUrl} target="_blank" rel="noreferrer" className="flex items-center gap-3 transition hover:text-sand"><MessageCircle size={18} /> {siteConfig.phoneDisplay}</a>
                   <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 transition hover:text-sand"><Mail size={18} /> {siteConfig.email}</a>
@@ -40,8 +40,8 @@ export function Contact() {
 
           <Reveal delay={0.08}>
             <div className="rounded-[2.5rem_2.5rem_2.5rem_0.8rem] border border-root/10 bg-sand p-6 shadow-card sm:p-10 lg:p-12">
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-root/65">Contato pelo WhatsApp</p>
-              <p className="mt-4 max-w-xl text-sm leading-7 text-ink/70">Organizamos as informações em uma mensagem para você revisar antes de enviar. Nenhum dado é armazenado pelo site.</p>
+              <p className="text-[0.8125rem] font-bold uppercase tracking-[0.15em] text-root/65">Contato pelo WhatsApp</p>
+              <p className="mt-4 max-w-xl text-[0.95rem] leading-7 text-ink/70">Organizamos as informações em uma mensagem para você revisar antes de enviar. Nenhum dado é armazenado pelo site.</p>
               <div className="mt-8"><ContactForm /></div>
             </div>
           </Reveal>

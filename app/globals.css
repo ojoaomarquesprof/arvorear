@@ -55,7 +55,7 @@ textarea {
 
 @layer components {
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[0.68rem] font-bold uppercase tracking-[0.22em] text-root/75;
+    @apply inline-flex items-center gap-2 text-[0.8125rem] font-bold uppercase tracking-[0.16em] text-root/75;
   }
 
   .eyebrow::before {
@@ -73,11 +73,11 @@ textarea {
   }
 
   .button-primary {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[1rem_1rem_1rem_0.35rem] bg-root px-6 py-3 text-sm font-bold text-sand shadow-[0_10px_26px_rgba(52,56,45,0.14)] transition duration-300 hover:-translate-y-px hover:bg-[#505544] hover:shadow-[0_14px_34px_rgba(52,56,45,0.19)] active:translate-y-0 active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60 motion-reduce:transform-none motion-reduce:transition-none;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[1rem_1rem_1rem_0.35rem] bg-root px-6 py-3 text-[0.95rem] font-bold leading-6 text-sand shadow-[0_10px_26px_rgba(52,56,45,0.14)] transition duration-300 hover:-translate-y-px hover:bg-[#505544] hover:shadow-[0_14px_34px_rgba(52,56,45,0.19)] active:translate-y-0 active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60 motion-reduce:transform-none motion-reduce:transition-none;
   }
 
   .button-secondary {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[1rem_1rem_1rem_0.35rem] border border-root/25 bg-sand/70 px-6 py-3 text-sm font-bold text-root backdrop-blur-sm transition duration-300 hover:-translate-y-px hover:border-root/50 hover:bg-sand hover:shadow-[0_10px_24px_rgba(52,56,45,0.08)] active:translate-y-0 motion-reduce:transform-none motion-reduce:transition-none;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[1rem_1rem_1rem_0.35rem] border border-root/25 bg-sand/70 px-6 py-3 text-[0.95rem] font-bold leading-6 text-root backdrop-blur-sm transition duration-300 hover:-translate-y-px hover:border-root/50 hover:bg-sand hover:shadow-[0_10px_24px_rgba(52,56,45,0.08)] active:translate-y-0 motion-reduce:transform-none motion-reduce:transition-none;
   }
 
   .glass-card {
